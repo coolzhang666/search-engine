@@ -1,0 +1,30 @@
+http://www.baidu.com/
+https://www.baidu.com/
+http://news.baidu.com/
+https://tieba.baidu.com/
+https://zhidao.baidu.com/
+http://music.baidu.com/
+http://image.baidu.com/
+http://v.baidu.com/
+http://map.baidu.com/
+https://wenku.baidu.com/
+https://child.baidu.com/
+https://shushuo.baidu.com/
+http://www.cast.org.cn
+http://www.cast.org.cn/
+http://www.cast.org.cn/
+ http://baike.bdimg.com/cms/static/cooperation/content.pdf
+http://www.cie-info.org.cn/
+http://www.cie-info.org.cn/
+ http://baike.bdimg.com/cms/static/cooperation/content.pdf
+http://www.baidu.com/p/w_ou
+https://aikefu.baidu.com/?product=bk001
+http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91
+http://help.baidu.com/newadd?prod_id=10&category=1
+http://help.baidu.com/newadd?prod_id=10&category=2
+http://help.baidu.com/newadd?prod_id=10&category=6
+http://help.baidu.com/newadd?prod_id=10&category=5
+http://www.baidu.com/duty/
+http://help.baidu.com/question?prod_en=baike&class=89&id=1637
+http://help.baidu.com/question?prod_id=10&class=690&id=1001779
+http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001
