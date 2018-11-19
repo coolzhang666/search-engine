@@ -26,7 +26,7 @@ class tf_idf:
             words = list(jieba.cut(content))
             doc = list()
             for word in words:
-                if word == "，" or word == "？" or word == "\n":
+                if word == "，" or word == "？" or word == "\n" or word == "。":
                     continue
                 doc.append(word)
             docs.append(doc)
@@ -86,45 +86,7 @@ class tf_idf:
 
 
 if __name__ == "__main__":
-    file_list = ["files/1.txt", "files/2.txt", "files/3.txt", "files/4.txt"]
+    file_list = ["files/file1.txt", ]
     a = tf_idf(file_list)
+    print(a.docs)
     print(a.tf_idf)
-    key = list()
-    value = list()
-    for i in a.tf_idf:
-        key.append(i)
-        value.append(a.tf_idf[i])
-
-
-    def get_cos(key, value, doc):
-        demo = dict()
-        for i in key:
-            demo[i] = 0
-        for j in doc:
-            if j in demo:
-                demo[j] += 1
-
-        sum = 0
-        for i in demo:
-            sum += demo.get(i) * a.tf_idf.get(i)
-        # print(sum)
-
-        A = 0
-        for i in a.tf_idf:
-            A += pow(a.tf_idf.get(i), 2)
-        A = math.sqrt(A)
-        # print(A)
-
-        B = 0
-        for i in demo:
-            B += pow(demo.get(i), 2)
-        B = math.sqrt(B)
-        # print(B)
-
-        fenmu = A * B
-        cos = sum / fenmu
-        print(cos)
-
-
-    for i in a.docs:
-        get_cos(key, value, i)
